@@ -29,7 +29,7 @@ publishing {
     publications {
         maven(MavenPublication) {
             groupId = project.group
-            artifactId = "cinematiccreator"
+            artifactId = project.name
             version = project.version
 
             from components.java
