@@ -9,7 +9,7 @@ public final class CinematicCreator {
     /**
      * @return CinematicManager instance.
      */
-    public CinematicManager getCinematicManager() {
+    public static CinematicManager getCinematicManager() {
         throw new ThisApiNotForImplementationException();
     }
 }
